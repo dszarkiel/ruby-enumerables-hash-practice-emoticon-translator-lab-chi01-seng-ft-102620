@@ -20,10 +20,10 @@ def get_english_meaning(file, japemoji)
     value.each do |origin, emoji|
       if emoji == japemoji
         english_word = key
-          binding.pry
+          #binding.pry
       end
       english_word
-  #binding.pry
+  binding.pry
 end
 end
 
