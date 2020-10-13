@@ -19,6 +19,7 @@ def get_english_meaning(file, emojis)
     value.each do |emoji|
       if emoji == emojis
         key
+      end
   end
 end
 
