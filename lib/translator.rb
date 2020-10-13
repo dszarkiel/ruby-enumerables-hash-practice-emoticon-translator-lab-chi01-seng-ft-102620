@@ -18,6 +18,7 @@ def get_english_meaning(file, emoji)
   file.each do |key, value|
   end
   binding.pry
+  puts "hi"
 end
 
 def get_japanese_emoticon
