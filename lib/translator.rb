@@ -15,6 +15,7 @@ end
 
 def get_english_meaning(file, emojis)
   load_library(file)
+  binding.pry
 end
 
 #def get_japanese_emoticon
