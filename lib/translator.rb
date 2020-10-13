@@ -15,7 +15,7 @@ end
 
 def get_english_meaning(file, emojis)
   load_library(file)
-  puts "hi"
+  file.each do |key, value|
   binding.pry
 end
 
