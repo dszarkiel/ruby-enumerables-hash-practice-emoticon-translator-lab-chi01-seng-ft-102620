@@ -23,7 +23,7 @@ end
 
 def get_japanese_emoticon(file, engemoji)
   hoh = load_library(file)
-  engemoji = hoh.values.find do |key|
+  engemoji = hoh.keys.find do |key|
     hoh[key][:english] == engemoji
 end
 engemoji ? engemoji : "Sorry, that emoticon was not found"
