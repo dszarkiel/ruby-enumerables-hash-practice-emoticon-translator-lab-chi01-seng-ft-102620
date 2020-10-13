@@ -17,6 +17,7 @@ def get_english_meaning(file, japemoji)
   hoh = load_library(file)
   hoh.each do |key, value|
     value.each do |origin, emoji|
+      if emoji == japemoji
   binding.pry
 end
 end
