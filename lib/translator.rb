@@ -16,7 +16,7 @@ end
 def get_english_meaning(file, emoji)
   load_library(file)
   file.each do |key, value|
-    pry
+    binding.pry
 end
 
 def get_japanese_emoticon
