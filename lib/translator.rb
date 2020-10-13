@@ -18,6 +18,8 @@ def get_english_meaning(file, japemoji)
   hoh.keys.find do |key|
     hoh[key][:japanese] == japemoji
 end
+  if !japemoji
+    puts "Sorry, that emoticon was not found"
 end
 #def get_japanese_emoticon
   # code goes here
