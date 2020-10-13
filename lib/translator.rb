@@ -16,7 +16,7 @@ end
 def get_english_meaning(file, jap_emoji)
   hoh = load_library(file)
   jap_emoji = hoh.keys.find do |key|
-    hoh[key][:jap_anese] == jap_emoji
+    hoh[key][:japanese] == jap_emoji
   end
   jape_moji ? jap_emoji : "Sorry, that emoticon was not found"
 end
