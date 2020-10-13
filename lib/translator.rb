@@ -16,10 +16,10 @@ end
 def get_english_meaning(file, emoji)
   load_library(file)
   file.each do |key, value|
-binding.pry
+#binding.pry
   end
 end
-
+binding.pry
 def get_japanese_emoticon
   # code goes here
 end
