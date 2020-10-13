@@ -22,6 +22,7 @@ def get_english_meaning(file, japemoji)
 end
 end
 end
+end
 
 #def get_japanese_emoticon
   # code goes here
