@@ -20,12 +20,12 @@ def get_english_meaning(file, japemoji)
       if emoji == japemoji
         english_word = key
       end
-  binding.pry
+  #binding.pry
 end
 end
 english_word
 end
-
+binding.pry
 #def get_japanese_emoticon
   # code goes here
 #end
