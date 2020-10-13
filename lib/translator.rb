@@ -13,20 +13,12 @@ def load_library(file)
   library
 end
 
-def get_english_meaning(file, japemoji)
-  hoh = load_library(file)
-  english_word = ""
-  hoh.each do |key, value|
-    value.each do |origin, emoji|
-      if emoji == japemoji
-        english_word = key
-          binding.pry
-      end
-      english_word
-  #binding.pry
-end
-end
-
+def get_english_meaning(file_path, emoticon)
+  library = load_library(file_path)
+  emoticon = library.keys.find do |key|
+    library[key][:japanese] == emoticon
+  end
+  emoticon ? emoticon : "Sorry, that emoticon was not found"
 end
 #def get_japanese_emoticon
   # code goes here
