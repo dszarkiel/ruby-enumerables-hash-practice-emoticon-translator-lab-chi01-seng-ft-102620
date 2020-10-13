@@ -25,7 +25,6 @@ end
 end
 english_word
 end
-binding.pry
 #def get_japanese_emoticon
   # code goes here
 #end
