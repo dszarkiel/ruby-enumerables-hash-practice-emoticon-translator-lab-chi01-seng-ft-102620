@@ -20,8 +20,7 @@ def get_english_meaning(file, japemoji)
       if emoji == japemoji
         english_word = key
       end
-      english_word
-  #binding.pry
+  binding.pry
 end
 end
 
