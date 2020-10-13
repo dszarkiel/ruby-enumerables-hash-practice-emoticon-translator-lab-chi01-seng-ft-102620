@@ -20,6 +20,7 @@ def get_english_meaning(file, japemoji)
   binding.pry
 end
 end
+end
 
 #def get_japanese_emoticon
   # code goes here
