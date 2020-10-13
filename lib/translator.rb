@@ -26,5 +26,5 @@ def get_japanese_emoticon(file, engemoji)
   engemoji = hoh.keys.find do |key|
     hoh[key][:english] == engemoji
 end
-engemoji ? engemoji : "Sorry, that emoticon was not found"
+engemoji ? engemoji[key][:english] : "Sorry, that emoticon was not found"
 end
