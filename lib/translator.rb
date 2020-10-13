@@ -17,7 +17,6 @@ def get_english_meaning(file, emoji)
   load_library(file)
   file.each do |key, value|
     binding.pry
-    puts "hello worlds"
   end
 end
 
