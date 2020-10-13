@@ -18,10 +18,12 @@ def get_english_meaning(file, japemoji)
   hoh.each do |key, value|
     value.each do |origin, emoji|
       if emoji == japemoji
+        english_word = key
+      end
   binding.pry
 end
 end
-end
+english_word
 end
 
 #def get_japanese_emoticon
