@@ -13,7 +13,7 @@ def load_library(file)
   library
 end
 
-def get_english_meaning(file, emojis)
+def get_english_meaning(file, japemoji)
   hoh = load_library(file)
   hoh.each do |key, value|
   binding.pry
