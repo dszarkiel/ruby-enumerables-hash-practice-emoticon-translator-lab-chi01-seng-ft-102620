@@ -19,7 +19,8 @@ def get_english_meaning(file, japemoji)
     value.each do |origin, emoji|
       if emoji == japemoji
         return key
-  binding.pry
+  #binding.pry
+end
 end
 end
 end
