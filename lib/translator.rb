@@ -19,6 +19,8 @@ def get_english_meaning(file, japemoji)
     value.each do |origin, emoji|
       if emoji == japemoji
         return key
+      else
+        puts "Sorry, that emoticon was not found"
   #binding.pry
 end
 end
