@@ -21,10 +21,10 @@ def get_english_meaning(file, japemoji)
   japemoji ? japemoji : "Sorry, that emoticon was not found"
 end
 
-def get_japanese_emoticon(file, eng_emoji)
+def get_japanese_emoticon(file, engemoji)
   hoh = load_library(file)
-  eng_emoji = hoh.keys.find do |key|
-    hoh[key][:english] == eng_emoji
+  engemoji = hoh.keys.find do |key|
+    hoh[key][:english] == engemoji
 end
-eng_emoji ? eng_emoji : "Sorry, that emoticon was not found"
+engemoji ? engemoji : "Sorry, that emoticon was not found"
 end
