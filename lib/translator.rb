@@ -22,6 +22,7 @@ def get_english_meaning(file, japemoji)
         english_word = key
           binding.pry
       end
+      english_word
   #binding.pry
 end
 end
