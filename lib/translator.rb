@@ -15,7 +15,8 @@ end
 
 
 
-def get_japanese_emoticon
+def get_japanese_emoticon(file, emoji)
+  load_library(file)
   # code goes here
 end
 
